@@ -17,6 +17,8 @@ def main():
 	d = int(sys.argv[1])
 	e = int(sys.argv[2])
 	print(add(d,e))
-		
+	
+	if (name =="_main_"):
+		main()
 	
 main()
