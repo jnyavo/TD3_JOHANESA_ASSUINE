@@ -25,6 +25,8 @@ def main():
 	
 	print(mul(eval(entre[1]),eval(entre[2])))
 
-main()
+
+if (__name__ == "__main__"):
+	main()
 	
 
