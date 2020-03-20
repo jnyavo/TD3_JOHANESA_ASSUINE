@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#Assuine Jesen Chrichne
+
 def add(a, b):
 	return a + b
 def main():
@@ -9,10 +11,8 @@ def main():
 		print("Erreur : 2 argument seulement")
 		a = input("Entrer le 1er nombre : ")
 		b = input("Entrer le 2e nombre : ")
-		try:
-			print(c(a,b))
-		except:
-			print(c(eval(a),eval(b)))
+
+		print(add(eval(a),eval(b)))
 		return		
 	d = int(sys.argv[1])
 	e = int(sys.argv[2])
