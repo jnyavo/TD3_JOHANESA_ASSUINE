@@ -2,7 +2,7 @@
 
 
 from mulTwoInt import mul
-from addtwoInt import add
+from addTwoINT import add
 
 def demanderMult():
 
