@@ -25,7 +25,10 @@ def main():
 	
 	print(mul(eval(entre[1]),eval(entre[2])))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 109a5a4b500e15cfd8d2654e78ce157bce7cc3e7
 if (__name__ == "__main__"):
 	main()
 	
