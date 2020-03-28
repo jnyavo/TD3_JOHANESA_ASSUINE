@@ -28,7 +28,7 @@ def demanderadd():
 
 	try:
 
-		i = input("Voulez-vous faire une multiplication (O/n) ?")
+		i = input("Voulez-vous faire une addition (o/n) ?")
 		return i;
 	except:
 		print("Veuillez mettre la valeur dans des ''")
